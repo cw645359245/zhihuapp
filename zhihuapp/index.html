@@ -240,8 +240,14 @@ h1{
 	</script>
   <script>
     var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true
+             pagination: '.pagination',
+             paginationClickable: true,
+             centeredSlides: true,
+             slidesPerView: 3,
+             watchActiveIndex: true,
+             loop:true,
+             loopAdditionalSlides:5,
+             updateFormElements:true
     });
     var swiper = new Swiper('.swiper-container2', {
         // pagination: '.swiper-pagination',
