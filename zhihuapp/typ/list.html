@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+
+<div class="top-one">
+<h1>热门新闻</h1>
+    <div class="content" ng-repeat="v in data.stories">
+       <a href="#!/show/{{v.id}}">
+         <span>{{v.title}}</span>
+         <img src="{{v.images[0]||'http://pic4.zhimg.com/af00d51d888b0d086937ab92f2b51fd7_t.jpg'}}" alt="">
+       </a>
+   </div>
+</div>
